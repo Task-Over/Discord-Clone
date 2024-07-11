@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/62f73ac4b1.js" crossorigin="anonymous"></script>
+    <style>
+        .clouds{
+            scale: 1.7;
+        }
+        .hero-left{
+            scale:0.85;
+        }
+        .hero-right{
+            scale:1;
+        }
+        .stars{
+            scale: 1.75;
+        }
+
+        .heading1{
+            font-family: 'GintoNord';
+            font-weight: 700;
+        }
+        .login{
+            font-family: 'Whitney';
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+   <div class="w-full h-full overflow-x-hidden">
+
+
+        <!-- nav bar -->
+        <nav class="bg-[#404EED]">
+
+            <div class="flex w-[87%] max-w-[1180px] mx-auto justify-between pt-5 items-center pb-6">
+
+                <img src="./assests/logo.svg" alt="" class="w-[124px] h-[34px]">
+
+                <div class="flex justify-between">
+                    <ul class="flex space-x-10">
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Download</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Nitro</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Discover</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Safety</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Support</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Blog</p>
+                        </li>
+                        <li class=" text-white text-[16px] hover:underline font-ggSans font-medium cursor-pointer hidden lg:block">
+                            <p>Careers</p>
+                        </li>
+        
+                    </ul>
+                </div>
+
+                <div class="flex justify-center content-center">
+                    <button class="rounded-l-full rounded-r-full bg-white text-[14px] font-extrabold pl-4 pr-4 pt-2 pb-2 login hidden md:block lg:block">Login</button>
+                    <div class="lg:hidden">
+                        <i class="fa-solid fa-bars scale-150 pl-5 pt-2"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero-Section -->
+        <div class="bg-[#404EED] w-full h-full relative overflow-hidden">
+
+            <div>
+                <img src="./assests/clouds.svg" alt="" class= "absolute bottom-32 clouds z-0 hidden lg:block">
+                <img src="./assests/hero_img_left.svg" class="absolute -bottom-5 -left[50%] hero-left lg:-left-[12%]">
+                <img src="./assests/hero_img_right.svg" class="absolute -bottom-5 -right-[13%] hero-right hidden lg:block">
+            </div>
+                
+
+        
+            <div class="w-[87%] max-w-[1180px] mx-auto flex flex-col justify-center pt-[7rem] pb-40 relative z-1 lg:items-center">
+               
+               <h2 class="text-[40px] text-white heading1 text-left lg:text-center lg:text-[56px]">IMAGINE A PLACE...</h2>
+               <p class="text-[15px] leading-[32.5px] w-[87%] max-w-[810px] font-ggSans text-left pt-5 text-white lg:text-center lg:text-[20px]">...where you can belong to a school club, a gaming group or a worldwide art community.
+               Where just you and a handful of friends can spend time together. 
+               A place that makes it easy to talk every day and hang out more often.</p>
+
+               <div class="flex flex-col max-w-[87%] w-[250px] mt-7 gap-5 lg:flex-row lg:justify-center lg:space-x-5 lg:w-[810px]
+               md:flex-row md:justify-center md:space-x-5 md:w-[810px]">
+                  <button class="bg-white rounded-l-full rounded-r-full p-2  text-[17px] text-left md:text-[20px] md:pl-4 md:pr-4">
+                    <i class="fa-solid fa-download mr-2"></i>Download for Windows</button>
+                  <button class="bg-[#23272a] rounded-l-full rounded-r-full p-2 text-white text-[17px] text-left md:text-[20px] md:pl-4 md:pr-4">Open discord in your browser</button>
+               </div>
+
+            </div>
+        </div>
+
+        <!-- feature-1 -->
+
+        <div>
+
+            <div class="w-[87%] max-w-[1180px] flex flex-col mx-auto pt-32 pb-32  justify-start items-center lg:flex-row lg:space-x-36">
+
+                <img src="./assests/feature1.svg" alt="" class="scale-125 w-[600px] h-[632px] lg:w-[450px] lg:h-[482px]">
+                <div class="flex flex-col ">
+                    <h2 class="text-[35px] text-[#23272a] font-bold text-left leading-none lg:text-[45px] lg:w-[420px] xl:text-[45px]">Create an invite- only place where you belong</h2>
+                    <br>
+                    <p class="text-[20px] text-[#23272a] w-full lg:text-[20px] lg:w-[375px]">Discord servers are organised into topic-based channels where you can collaborate, share and just talk about your day without clogging up a group chat.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- feature-2 -->
+
+        <div class="bg-[#F6F6F6]">
+
+            <div class="w-[87%] max-w-[1180px] flex flex-col-reverse mx-auto pt-32 pb-32  justify-start items-center lg:flex-row lg:space-x-36">
+                <div class="flex flex-col">
+                    <h2 class="text-[35px] text-[#23272a] font-bold text-left leading-none lg:text-[45px] lg:w-[400px] xl:text-[45px]">Where hanging out is easy</h2>
+                    <br>
+                    <p class="text-[20px] text-[#23272a] w-full lg:text-[20px] lg:w-[376px]">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+                </div>
+
+                <img src="./assests/feauture2.svg" alt="" class="scale-125 w-[600px] h-[632px] lg:w-[450px] lg:h-[482px]">
+                
+            </div>
+        </div>
+
+
+        <!-- feature-3 -->
+        
+        <div>
+
+            <div class="w-[87%] max-w-[1180px] flex flex-col mx-auto pt-32 pb-32  justify-start items-center lg:flex-row lg:space-x-36">
+
+                <img src="./assests/feature3.svg" alt="" class="scale-125 w-[600px] h-[632px] lg:w-[450px] lg:h-[482px]">
+                <div class="flex flex-col ">
+                    <h2 class="text-[35px] text-[#23272a] font-bold text-left leading-none lg:text-[45px] lg:w-[420px] xl:text-[45px]">From few to a fandom</h2>
+                    <br>
+                    <p class="text-[20px] text-[#23272a] w-full lg:text-[20px] lg:w-[375px]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels and more.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- feature-4 -->
+
+        <div class="bg-gradient-to-b from-[#F6F6F6] to-white  overflow-hidden">
+
+            <div class="w-[87%] max-w-[1180px] flex flex-col mx-auto pt-28 space-y-14 justify-center items-center lg:space-y-32">
+
+                <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[40px] text-[#23272a] leading-none text-center heading1">RELIABLE TECH FOR STAYING CLOSE</h2>
+                    <br>
+                    <p class="text-[20px] text-[#23272a] w-full max-w-[1000px] text-center">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games or gather together over a drawing session with Screen Share.</p>
+                </div>
+                <div>
+                    <img src="./assests/feature4.svg" alt="" class="w-[90%] h-[90%] lg:scale-150">
+                </div>
+
+                <div class="relative flex flex-col justify-evenly items-center space-y-2">
+                    <img src="./assests/stars.svg" alt="" class="absolute w-[100%] scale-50 sm:scale-75 md:scale-110 stars lg:scale-150">
+                    <h2 class="text-[#23272a] font-bold text-[150%] w-full text-center">Ready to start your journey?</h2>
+                    <button class="bg-[#5865f2] rounded-l-full rounded-r-full p-3 text-[20px] pl-6 pr-6 text-white font-medium"><i class="fa-solid fa-download mr-2"></i>Download for Windows</button>
+                </div>
+                
+            </div>
+        </div>
+
+       
+        <!-- footer -->
+
+        <footer class="bg-[#23272A] mt-32">
+           <div class="w-[87%] max-w-[1200px] flex flex-col mx-auto justify-around md:flex-row md:space-x-32">
+
+                <div class=" flex flex-col w-[30%] mt-32 items-start space-y-10">
+                        <div class="flex space-x-2">
+                            <img src="./assests/india-flag.svg" alt="">
+                            <p class="text-white">Hindi</p>
+                            <div class="pt-1.5">
+                                <img src="./assests/arrow.png" alt="" class="h-3 w-3">
+                            </div>
+                            
+                        </div>
+                        <div class="flex space-x-6">
+                            <img src="./assests/x.svg" alt="">
+                            <img src="./assests/instagram.svg" alt="">
+                            <img src="./assests/facebook.svg" alt="">
+                            <img src="./assests/youtube.svg" alt="">
+                            <img src="./assests/tiktok.svg" alt="">
+                        </div>
+                </div>
+
+                <div class="flex flex-row w-full mt-20  flex-wrap gap-10 sm:gap-32 md:gap-5 lg:justify-around">
+                    <div class="flex flex-col">
+                        <h2 class="text-[16px] text-[#4C65F2] pb-5">Product</h2>
+                        <ul class="flex flex-col justify-center space-y-2">
+                            <li class="text-white">Download</li>
+                            <li class="text-white">Nitro</li>
+                            <li class="text-white">Status</li>
+                            <li class="text-white">App Directory</li>
+                            <li class="text-white">New Mobile Experience</li>
+                        </ul>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <h2 class="text-[16px] text-[#4C65F2] pb-5">Company</h2>
+                        <ul class="flex flex-col justify-center space-y-2">
+                            <li class="text-white">About</li>
+                            <li class="text-white">Jobs</li>
+                            <li class="text-white">Brand</li>
+                            <li class="text-white">Newsroom</li>
+                            <li class="text-white">Fall Release</li>
+                        </ul>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <h2 class="text-[16px] text-[#4C65F2] pb-5">Resources</h2>
+                        <ul class="flex flex-col justify-center space-y-2">
+                            <li class="text-white">College</li>
+                            <li class="text-white">Support</li>
+                            <li class="text-white">Safety</li>
+                            <li class="text-white">Blog</li>
+                            <li class="text-white">Feedback</li>
+                            <li class="text-white">StreamKit</li>
+                            <li class="text-white">Creators</li>
+                            <li class="text-white">community</li>
+                            <li class="text-white">Developers</li>
+                            <li class="text-white">Gaming</li>
+                            <li class="text-white">Official Third-Party Merch</li>
+                        </ul>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <h2 class="text-[16px] text-[#4C65F2] pb-5">Policies</h2>
+                        <ul class="flex flex-col justify-center space-y-2">
+                            <li class="text-white">Terms</li>
+                            <li class="text-white">Privacy</li>
+                            <li class="text-white">Cookie Settings</li>
+                            <li class="text-white">Guidelines</li>
+                            <li class="text-white">Acknowledgements</li>
+                            <li class="text-white">Licenses</li>
+                            <li class="text-white">Company Information</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+              
+           </div>
+           <hr class="w-[87%] max-w-[1200px] mx-auto bg-[#404EED] h-[1px] mt-8 border-[#404EED] rounded">
+           <div class="flex w-[87%] max-w-[1200px] mx-auto justify-between mt-8 pb-14">
+            <img src="./assests/logo.svg" alt="" class="w-[124px] h-[34px]">
+            <button class="bg-[#5865f2] rounded-l-full rounded-r-full p-2 text-[14px] pl-3 pr-3 text-white font-medium" >Sign up</button>
+        </div>
+        </footer>
+        
+
+      
+   </div>
+</body>
+</html>
